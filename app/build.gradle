@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.1"
     defaultConfig {
         applicationId "logicturtle.innovaceraccidentalert"
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 28
         multiDexEnabled true
         versionCode 1
         versionName "1.0"
@@ -30,7 +30,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:appcompat-v7:28.+'
     compile 'com.kaopiz:kprogresshud:1.0.5'
     compile 'info.hoang8f:fbutton:1.0.5'
     compile 'com.github.CardinalNow:Android-CircleProgressIndicator:v0.2'
